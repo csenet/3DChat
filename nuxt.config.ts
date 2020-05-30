@@ -11,10 +11,10 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content: process.env.npm_package_description || '',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Customize the progress-bar color
@@ -40,7 +40,7 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
   ],
   /*
    ** Axios module configuration
@@ -54,13 +54,13 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config: any, ctx: any) {}
+    extend(config: any, ctx: any) {},
   },
   /*
    ** Type Script Configration
    */
   typescript: {
     typeCheck: true,
-    ignoreNotFoundWarnings: true
-  }
+    ignoreNotFoundWarnings: true,
+  },
 }

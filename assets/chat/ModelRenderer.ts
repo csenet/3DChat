@@ -17,9 +17,13 @@ export default class ModelRenderer {
     this.LoadModels()
   }
 
+  Initialize(){
+    
+  }
+
   private CreateRenderer() {
     // レンダラー
-    const $canvas: any = document.getElementById('model')
+    const $canvas = <HTMLCanvasElement>document.getElementById('model')
     this.renderer = new THREE.WebGLRenderer({
       antialias: true,
       alpha: true,

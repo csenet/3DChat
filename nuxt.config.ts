@@ -54,7 +54,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config: any, ctx: any) {},
+    extend() {},
   },
   /*
    ** Type Script Configration
